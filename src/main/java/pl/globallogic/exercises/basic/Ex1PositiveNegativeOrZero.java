@@ -1,8 +1,6 @@
-package pl.globallogic.exercises.basic.Ex1;
+package pl.globallogic.exercises.basic;
 
-import pl.globallogic.Main;
-
-public class PositiveNegativeOrZero {
+public class Ex1PositiveNegativeOrZero {
     public static void CheckNum(int num) {
         if( num < 0 ) System.out.println("The number is negative");
         else if (num > 0) System.out.println("The number is positive");
